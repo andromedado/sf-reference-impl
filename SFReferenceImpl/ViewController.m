@@ -8,6 +8,9 @@
 
 #import "ViewController.h"
 
+@import ServiceCore;
+@import ServiceKnowledge;
+
 @interface ViewController ()
 
 @end
@@ -19,6 +22,11 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)buttonTap:(id)sender {
+    [[SCServiceCloud sharedInstance].knowledge setInterfaceVisible:YES
+                                                          animated:YES
+                                                        completion:nil];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -1,0 +1,43 @@
+framework module SalesforceKit {
+    umbrella header "SalesforceKit.h"
+    
+    export *
+    module * { export * }
+
+    framework module SalesforceAnalytics {
+        umbrella header "SalesforceAnalytics.h"
+    
+        export *
+        module * { export * }
+    }
+
+    framework module SalesforceSDKCore {
+        umbrella header "SalesforceSDKCore.h"
+
+        export *
+        module * { export * }
+    }
+
+    framework module SmartStore {
+        umbrella header "SmartStore.h"
+
+        export *
+        module * { export * }
+    }
+
+    framework module SmartSync {
+        umbrella header "SmartSync.h"
+        
+        export *
+        module * { export * }
+    }
+
+    link "z"
+    link "sqlite3"
+    link framework "MobileCoreServices"
+    
+    use SalesforceAnalytics
+    use SalesforceSDKCore
+    use SmartStore
+    use SmartSync
+}

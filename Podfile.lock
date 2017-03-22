@@ -1,0 +1,16 @@
+PODS:
+  - ServiceSDK/Cases (206.0.0)
+  - ServiceSDK/Knowledge (206.0.0)
+  - ServiceSDK/SOS (206.0.0)
+
+DEPENDENCIES:
+  - ServiceSDK/Cases
+  - ServiceSDK/Knowledge
+  - ServiceSDK/SOS
+
+SPEC CHECKSUMS:
+  ServiceSDK: a8812fbf3f9785cd41461ea6942a96e23f3f1b27
+
+PODFILE CHECKSUM: e259f254bb961bc55e4a9b43f9a73e4916dd3915
+
+COCOAPODS: 1.1.1

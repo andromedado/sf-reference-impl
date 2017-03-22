@@ -13,9 +13,14 @@
 		732847C21E830B9600580DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732847C01E830B9600580DE5 /* Main.storyboard */; };
 		732847C41E830B9600580DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 732847C31E830B9600580DE5 /* Assets.xcassets */; };
 		732847C71E830B9600580DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 732847C51E830B9600580DE5 /* LaunchScreen.storyboard */; };
+		732847D11E830C9500580DE5 /* FreigSanProBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = 732847D01E830C9500580DE5 /* FreigSanProBook.otf */; };
+		732847D31E830CB400580DE5 /* BryantPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 732847D21E830CB400580DE5 /* BryantPro-Medium.otf */; };
+		732847D61E830CD600580DE5 /* FDSCServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 732847D51E830CD600580DE5 /* FDSCServiceManager.m */; };
+		EB69C23B34525A66205C3159 /* libPods-SFReferenceImpl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C319AE2C470E2D932C962ED /* libPods-SFReferenceImpl.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12E77107DDEC6BB292E51064 /* Pods-SFReferenceImpl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFReferenceImpl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SFReferenceImpl/Pods-SFReferenceImpl.debug.xcconfig"; sourceTree = "<group>"; };
 		732847B41E830B9600580DE5 /* SFReferenceImpl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFReferenceImpl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		732847B81E830B9600580DE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		732847BA1E830B9600580DE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +31,12 @@
 		732847C31E830B9600580DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		732847C61E830B9600580DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		732847C81E830B9600580DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		732847D01E830C9500580DE5 /* FreigSanProBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FreigSanProBook.otf; sourceTree = "<group>"; };
+		732847D21E830CB400580DE5 /* BryantPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BryantPro-Medium.otf"; sourceTree = "<group>"; };
+		732847D41E830CD600580DE5 /* FDSCServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDSCServiceManager.h; sourceTree = "<group>"; };
+		732847D51E830CD600580DE5 /* FDSCServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDSCServiceManager.m; sourceTree = "<group>"; };
+		8C319AE2C470E2D932C962ED /* libPods-SFReferenceImpl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SFReferenceImpl.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A282655F9F154153690E6A /* Pods-SFReferenceImpl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SFReferenceImpl.release.xcconfig"; path = "Pods/Target Support Files/Pods-SFReferenceImpl/Pods-SFReferenceImpl.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB69C23B34525A66205C3159 /* libPods-SFReferenceImpl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +56,8 @@
 			children = (
 				732847B61E830B9600580DE5 /* SFReferenceImpl */,
 				732847B51E830B9600580DE5 /* Products */,
+				BDA81582ECA1548CFAA31EB5 /* Pods */,
+				F4303A92D3E2AB3E968702D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +74,8 @@
 			children = (
 				732847BA1E830B9600580DE5 /* AppDelegate.h */,
 				732847BB1E830B9600580DE5 /* AppDelegate.m */,
+				732847D41E830CD600580DE5 /* FDSCServiceManager.h */,
+				732847D51E830CD600580DE5 /* FDSCServiceManager.m */,
 				732847BD1E830B9600580DE5 /* ViewController.h */,
 				732847BE1E830B9600580DE5 /* ViewController.m */,
 				732847C01E830B9600580DE5 /* Main.storyboard */,
@@ -67,6 +83,7 @@
 				732847C51E830B9600580DE5 /* LaunchScreen.storyboard */,
 				732847C81E830B9600580DE5 /* Info.plist */,
 				732847B71E830B9600580DE5 /* Supporting Files */,
+				732847CF1E830C7F00580DE5 /* Resources */,
 			);
 			path = SFReferenceImpl;
 			sourceTree = "<group>";
@@ -79,6 +96,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		732847CF1E830C7F00580DE5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				732847D21E830CB400580DE5 /* BryantPro-Medium.otf */,
+				732847D01E830C9500580DE5 /* FreigSanProBook.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BDA81582ECA1548CFAA31EB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12E77107DDEC6BB292E51064 /* Pods-SFReferenceImpl.debug.xcconfig */,
+				93A282655F9F154153690E6A /* Pods-SFReferenceImpl.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4303A92D3E2AB3E968702D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C319AE2C470E2D932C962ED /* libPods-SFReferenceImpl.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +129,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 732847CB1E830B9600580DE5 /* Build configuration list for PBXNativeTarget "SFReferenceImpl" */;
 			buildPhases = (
+				821986FA74EAB74604CC2310 /* [CP] Check Pods Manifest.lock */,
 				732847B01E830B9600580DE5 /* Sources */,
 				732847B11E830B9600580DE5 /* Frameworks */,
 				732847B21E830B9600580DE5 /* Resources */,
+				E24EE935AFE415E8CE8FE3F4 /* [CP] Embed Pods Frameworks */,
+				44040AE0669DDE54DF60050B /* [CP] Copy Pods Resources */,
+				732847D71E830F4F00580DE5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -112,6 +159,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = KTWP79UZ95;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -139,12 +191,75 @@
 			buildActionMask = 2147483647;
 			files = (
 				732847C71E830B9600580DE5 /* LaunchScreen.storyboard in Resources */,
+				732847D11E830C9500580DE5 /* FreigSanProBook.otf in Resources */,
 				732847C41E830B9600580DE5 /* Assets.xcassets in Resources */,
 				732847C21E830B9600580DE5 /* Main.storyboard in Resources */,
+				732847D31E830CB400580DE5 /* BryantPro-Medium.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44040AE0669DDE54DF60050B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SFReferenceImpl/Pods-SFReferenceImpl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		732847D71E830F4F00580DE5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/ServiceSDK/Frameworks/SalesforceKit.framework/prepare-framework\"";
+		};
+		821986FA74EAB74604CC2310 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E24EE935AFE415E8CE8FE3F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SFReferenceImpl/Pods-SFReferenceImpl-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		732847B01E830B9600580DE5 /* Sources */ = {
@@ -154,6 +269,7 @@
 				732847BF1E830B9600580DE5 /* ViewController.m in Sources */,
 				732847BC1E830B9600580DE5 /* AppDelegate.m in Sources */,
 				732847B91E830B9600580DE5 /* main.m in Sources */,
+				732847D61E830CD600580DE5 /* FDSCServiceManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +385,11 @@
 		};
 		732847CC1E830B9600580DE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E77107DDEC6BB292E51064 /* Pods-SFReferenceImpl.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KTWP79UZ95;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SFReferenceImpl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1stdibs.utils.SFReferenceImpl;
@@ -281,9 +399,11 @@
 		};
 		732847CD1E830B9600580DE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93A282655F9F154153690E6A /* Pods-SFReferenceImpl.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KTWP79UZ95;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SFReferenceImpl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1stdibs.utils.SFReferenceImpl;
@@ -310,6 +430,7 @@
 				732847CD1E830B9600580DE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

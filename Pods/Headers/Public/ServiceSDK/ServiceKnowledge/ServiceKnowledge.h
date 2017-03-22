@@ -1,0 +1,1 @@
+../../../../ServiceSDK/Frameworks/ServiceKnowledge.framework/Headers/ServiceKnowledge.h
